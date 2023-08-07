@@ -14,8 +14,7 @@ console.log(output);
 const findBMI = (weight,height)=>{
     const bmi = weight / (height * height);
     console.log(bmi);
-    output.innerText=`${bmi.toFixed(2)}`
-    output.style.color="yellow"
+    output.innerText=`${bmi}`
 }
 
 
